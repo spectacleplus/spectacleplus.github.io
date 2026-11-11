@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spectacle Plus - Hospital Based Optical Store</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+html{background:#0B2A5B;color-scheme:light;scroll-behavior:smooth;scroll-padding-top:72px;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:#fff}
+img,svg{max-width:100%}
+a{color:#1766B0}a:hover{color:#0B2A5B}
+.pg{font-family:'Poppins',sans-serif;color:#0B2A5B;background:#fff}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;text-decoration:none;min-height:44px;box-sizing:border-box}
+.bp{background:#17A2DC;color:#0B2A5B}.bp:hover{background:#5CC6F0;color:#0B2A5B}
+.bg{border:2px solid #CFE6FA;color:#fff}.bg:hover{background:#1E7FD6;color:#fff}
+.nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:15px}.nav a:hover{color:#17A2DC}
+.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:#0B2A5B}
+.sec{padding:84px 0}
+.tag{font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#1766B0;margin:0 0 10px}
+h2{font-family:'DM Serif Display',serif;font-weight:400;font-size:40px;line-height:1.15;margin:0 0 14px;color:#0B2A5B}
+.lead{font-size:17px;line-height:1.7;color:#3F4A5C;max-width:640px;margin:0 0 40px}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.fcard{background:#fff;border:1px solid #D6E7F6;border-radius:18px;padding:26px}
+.fcard h3,.step h3{margin:14px 0 6px;font-size:18px}
+.fcard p,.step p{margin:0;font-size:15px;line-height:1.6;color:#3F4A5C}
+.ic{width:48px;height:48px;border-radius:14px;background:#0B2A5B;color:#17A2DC;display:flex;align-items:center;justify-content:center}
+.stat{flex:1 1 200px;text-align:center;padding:26px 12px}
+.sn{font-family:'DM Serif Display',serif;font-size:46px;line-height:1;color:#fff}
+.sl{font-size:14px;color:#CFE6FA;margin-top:8px}
+.col{border-radius:22px;padding:30px 30px 34px;min-height:200px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
+.col h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:30px;margin:0 0 6px}
+.col p{margin:0;font-size:15px;line-height:1.5;color:#EAF4FC}
+.col:before{content:"";position:absolute;right:-40px;top:-40px;width:170px;height:170px;border-radius:50%;border:26px solid rgba(255,255,255,.14)}
+.chip{display:inline-block;padding:9px 18px;border-radius:999px;background:#EAF4FC;color:#0B2A5B;font-size:14px;font-weight:500;margin:0 8px 10px 0}
+.step{position:relative;padding:26px;border-radius:18px;background:#0B2A5B;color:#fff}
+.step p{color:#CFE6FA}
+.num{width:42px;height:42px;border-radius:50%;background:#17A2DC;color:#0B2A5B;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ex{background:#fff;border-radius:18px;padding:26px;text-align:center;border:2px solid #CFE6FA}
+.exs{font-family:'DM Serif Display',serif;font-size:30px}
+.exl{font-size:14px;color:#3F4A5C;margin:4px 0 12px}
+.exd{font-size:16px;color:#0B2A5B;background:#EAF4FC;border-radius:12px;padding:10px}
+.dr{border-radius:18px;padding:26px;background:#EAF4FC}
+.dr h3{margin:0 0 6px;font-size:19px}.dr p{margin:0;color:#3F4A5C;font-size:15px}
+.qa{border-bottom:1px solid #D6E7F6;padding:18px 0}
+.qa summary{cursor:pointer;font-weight:600;font-size:17px;list-style:none;min-height:44px;display:flex;align-items:center}
+.qa p{margin:8px 0 0;color:#3F4A5C;line-height:1.7;font-size:15px}
+.pt{display:block;width:150px;margin:0 auto 14px}
+.brand{background:#fff;border:2px solid #D6E7F6;border-radius:16px;padding:24px 14px;text-align:center;font-family:'DM Serif Display',serif;font-size:22px;color:#0B2A5B}
+.sub{font-family:'DM Serif Display',serif;font-weight:400;font-size:28px;margin:48px 0 16px;color:#0B2A5B}
+.fab{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:30;background:#0B2A5B;color:#fff;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:999px;box-shadow:0 8px 24px rgba(11,42,91,.35)}
+.fab:hover{background:#1E7FD6;color:#fff}
+</style>
+
+</head>
+<body>
+
+<div class="pg">
+<header class="hd"><div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding-top:14px;padding-bottom:14px">
+<div style="font-size:26px;font-weight:700;color:#fff;letter-spacing:-0.5px">spectacle<span style="color:#17A2DC">+</span></div>
+<nav class="nav"><a href="#why">Why us</a><a href="#range">Our range</a><a href="#lenses">Lenses</a><a href="#how">How it works</a><a href="#doctors">Our doctors</a><a href="#faq">FAQ</a><a class="btn bp" style="margin-left:22px;padding:9px 20px;min-height:40px;color:#0B2A5B" href="#contact">Partner with us</a></nav>
+</div></header>
+
+<section style="background:linear-gradient(135deg,#0B2A5B 0%,#12408A 100%);color:#fff;overflow:hidden">
+<div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px;padding-top:84px;padding-bottom:96px">
+<div style="flex:1 1 440px">
+<p style="font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#17A2DC;margin:0 0 16px">Hospital based optical store</p>
+<h1 style="font-family:'DM Serif Display',serif;font-weight:400;font-size:58px;line-height:1.08;margin:0 0 22px">Clear vision for patients. <span style="color:#17A2DC">Real income</span> for doctors.</h1>
+<p style="font-size:18px;line-height:1.7;color:#CFE6FA;margin:0 0 32px;max-width:540px">We set up and run the optical counter inside your hospital or clinic. You focus on treatment. The doctor earns from every sale.</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px"><a class="btn bp" href="tel:+919074108357">Call 90741 08357</a><a class="btn bg" href="https://wa.me/919074108357">WhatsApp us</a></div>
+</div>
+<div style="flex:1 1 300px;display:flex;justify-content:center">
+<svg viewBox="0 0 400 240" width="100%" style="max-width:440px" role="img" aria-label="Eyeglasses with a plus sign">
+<circle cx="200" cy="120" r="115" fill="none" stroke="#1E7FD6" stroke-width="2" opacity=".5"/><circle cx="200" cy="120" r="85" fill="none" stroke="#1E7FD6" stroke-width="2" opacity=".35"/>
+<g fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"><circle cx="120" cy="125" r="56"/><circle cx="280" cy="125" r="56"/><path d="M176 112q24-22 48 0"/><path d="M66 108L30 88M334 108l36-20"/></g>
+<path d="M280 100v50M255 125h50" stroke="#17A2DC" stroke-width="12" stroke-linecap="round"/><circle cx="120" cy="125" r="11" fill="#17A2DC"/>
+</svg>
+</div>
+</div>
+</section>
+
+<section style="background:#0B2A5B;border-top:1px solid #1E4A8A"><div class="wrap" style="display:flex;flex-wrap:wrap">
+<div class="stat"><div class="sn">3</div><div class="sl">Active counters in Jabalpur</div></div>
+<div class="stat"><div class="sn">10+</div><div class="sl">Years of founder experience</div></div>
+<div class="stat"><div class="sn">7</div><div class="sl">Spectacle lens brands</div></div>
+<div class="stat"><div class="sn">4</div><div class="sl">Contact lens brands</div></div>
+</div></section>
+
+<section id="why" class="sec"><div class="wrap">
+<p class="tag">Why Spectacle Plus</p><h2>Care you can feel. Craft you can see.</h2>
+<p class="lead">A professionally managed optical counter, built so that the doctor benefits and the hospital has no burden.</p>
+<div class="grid"><div class="fcard"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><h3>Accurate dispensing</h3><p>Every pair is made as per the prescription with proper eye measurements.</p></div><div class="fcard"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div><h3>Trained staff</h3><p>Qualified dispensing staff who follow the doctor's advice exactly.</p></div><div class="fcard"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="M3 7l9 4 9-4M12 11v10"/></svg></div><h3>Stock handled by us</h3><p>Frames, lenses and inventory are fully managed. No burden on the hospital.</p></div><div class="fcard"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 5L5 19"/><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/></svg></div><h3>Earning for the doctor</h3><p>A rewarding share on every sale from your counter.</p></div><div class="fcard"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg></div><h3>After-sales care</h3><p>Fitting, adjustments and follow-up for every patient.</p></div><div class="fcard"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Owner managed</h3><p>The owner personally looks after every counter.</p></div></div>
+</div></section>
+
+<section id="range" class="sec" style="background:#F4F9FE"><div class="wrap">
+<p class="tag">Our range</p><h2>Every frame, properly fitted</h2>
+<p class="lead">From everyday to premium, for men, women and children. Plus sunglasses and contact lenses.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))"><div class="col" style="background:#0B2A5B"><svg class="pt" viewBox="0 0 200 190" role="img" aria-label="Man wearing rectangular frames"><path d="M25 190Q25 148 100 142Q175 148 175 190Z" fill="#EAF4FC"/><rect x="88" y="120" width="24" height="30" rx="8" fill="#D9A77C" opacity=".85"/><ellipse cx="100" cy="92" rx="40" ry="48" fill="#D9A77C"/><path d="M58 88Q56 40 100 40Q144 40 142 88Q132 62 100 62Q68 62 58 88Z" fill="#1E1E1E"/><circle cx="79" cy="99" r="2.6" fill="#0B2A5B"/><circle cx="121" cy="99" r="2.6" fill="#0B2A5B"/><rect x="60" y="86" width="36" height="26" rx="6" fill="#fff" fill-opacity=".25" stroke="#111827" stroke-width="4"/><rect x="104" y="86" width="36" height="26" rx="6" fill="#fff" fill-opacity=".25" stroke="#111827" stroke-width="4"/><path d="M96 97Q100 92 104 97M60 96L54 93M140 96l6-3" stroke="#111827" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M90 124Q100 132 110 124" stroke="#7A3B2E" stroke-width="3" fill="none" stroke-linecap="round"/></svg><h3>Men</h3><p>Stylish, comfortable frames for every look and lifestyle.</p></div><div class="col" style="background:#1766B0"><svg class="pt" viewBox="0 0 200 190" role="img" aria-label="Woman wearing cat-eye frames"><path d="M25 190Q25 148 100 142Q175 148 175 190Z" fill="#EAF4FC"/><rect x="88" y="120" width="24" height="30" rx="8" fill="#F1C9A5" opacity=".85"/><path d="M54 100Q46 36 100 34Q154 36 146 100L150 152Q134 150 134 118L66 118Q66 150 50 152Z" fill="#5B3A29"/><ellipse cx="100" cy="92" rx="40" ry="48" fill="#F1C9A5"/><path d="M58 92Q60 44 100 44Q140 44 142 92Q128 64 100 64Q72 64 58 92Z" fill="#5B3A29"/><circle cx="79" cy="99" r="2.6" fill="#0B2A5B"/><circle cx="121" cy="99" r="2.6" fill="#0B2A5B"/><path d="M60 96Q62 86 80 87Q97 88 96 104Q90 114 74 112Q60 110 60 96Z" fill="#fff" fill-opacity=".25" stroke="#E0457B" stroke-width="4"/><path d="M140 96Q138 86 120 87Q103 88 104 104Q110 114 126 112Q140 110 140 96Z" fill="#fff" fill-opacity=".25" stroke="#E0457B" stroke-width="4"/><path d="M96 97Q100 92 104 97M60 96L54 93M140 96l6-3" stroke="#E0457B" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M90 124Q100 132 110 124" stroke="#7A3B2E" stroke-width="3" fill="none" stroke-linecap="round"/></svg><h3>Women</h3><p>Elegant, flattering frames to suit every style.</p></div><div class="col" style="background:#0E8CB8"><svg class="pt" viewBox="0 0 200 190" role="img" aria-label="Child wearing round frames"><path d="M25 190Q25 148 100 142Q175 148 175 190Z" fill="#EAF4FC"/><rect x="88" y="120" width="24" height="30" rx="8" fill="#E8B98D" opacity=".85"/><ellipse cx="100" cy="92" rx="40" ry="48" fill="#E8B98D"/><path d="M60 84Q62 46 100 46Q138 46 140 84Q126 66 100 66Q74 66 60 84Z" fill="#8B5A2B"/><circle cx="79" cy="99" r="2.6" fill="#0B2A5B"/><circle cx="121" cy="99" r="2.6" fill="#0B2A5B"/><circle cx="79" cy="99" r="17" fill="#fff" fill-opacity=".25" stroke="#F5B301" stroke-width="4"/><circle cx="121" cy="99" r="17" fill="#fff" fill-opacity=".25" stroke="#F5B301" stroke-width="4"/><path d="M96 97Q100 92 104 97M60 96L54 93M140 96l6-3" stroke="#F5B301" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M90 124Q100 132 110 124" stroke="#7A3B2E" stroke-width="3" fill="none" stroke-linecap="round"/></svg><h3>Kids</h3><p>Durable, lightweight frames for growing faces.</p></div><div class="col" style="background:#12408A"><svg class="pt" viewBox="0 0 200 190" role="img" aria-label="Man wearing sunglasses"><path d="M25 190Q25 148 100 142Q175 148 175 190Z" fill="#EAF4FC"/><rect x="88" y="120" width="24" height="30" rx="8" fill="#9C6B47" opacity=".85"/><ellipse cx="100" cy="92" rx="40" ry="48" fill="#9C6B47"/><path d="M58 88Q56 40 100 40Q144 40 142 88Q132 62 100 62Q68 62 58 88Z" fill="#2B1B12"/><rect x="60" y="86" width="36" height="26" rx="8" fill="#0B1B38" opacity=".92"/><rect x="104" y="86" width="36" height="26" rx="8" fill="#0B1B38" opacity=".92"/><path d="M96 97Q100 92 104 97M60 96L54 93M140 96l6-3" stroke="#111" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M90 124Q100 132 110 124" stroke="#7A3B2E" stroke-width="3" fill="none" stroke-linecap="round"/></svg><h3>Sunglasses</h3><p>UV protection with style, including power sunglasses.</p></div></div>
+</div></section>
+
+<section id="lenses" class="sec"><div class="wrap">
+<p class="tag">Lenses we deal in</p><h2>Trusted lens brands for every kind of vision</h2>
+<p class="lead">Lenses made exactly as per the doctor's prescription, from well known lens makers.</p>
+<h3 class="sub" style="margin-top:0">Lens types</h3>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+<div class="dr"><h3>Single Vision</h3><p>Clear correction for one distance, ideal for everyday use.</p></div>
+<div class="dr"><h3>Progressive</h3><p>Near, middle and far vision in one lens, with no visible line.</p></div>
+<div class="dr"><h3>Bifocal</h3><p>Two zones in one lens for distance and near vision.</p></div>
+</div>
+<h3 class="sub">Lens material</h3>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+<div class="dr"><h3>Glass</h3><p>Optically clear and scratch resistant.</p></div>
+<div class="dr"><h3>Fibre</h3><p>Light, impact resistant and comfortable for all day wear.</p></div>
+</div>
+<h3 class="sub">Spectacle lens brands</h3>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))"><div class="brand">Essilor Crizal</div><div class="brand">Vision Rx</div><div class="brand">Nova Fino</div><div class="brand">Satin Plus</div><div class="brand">Seiko</div><div class="brand">Kodak</div><div class="brand">Zeiss</div></div>
+<h3 class="sub">Contact lens brands</h3>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))"><div class="brand">Bausch + Lomb</div><div class="brand">CooperVision</div><div class="brand">Alcon</div><div class="brand">Johnson &amp; Johnson</div></div>
+<p style="font-size:13px;color:#4A5568;margin:22px 0 0">All brand names belong to their respective owners.</p>
+</div></section>
+
+<section id="how" class="sec"><div class="wrap">
+<p class="tag">How it works</p><h2>From first meeting to a running counter</h2>
+<p class="lead">A simple four-step start, with clear terms agreed in writing.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr))"><div class="step"><div class="num">1</div><h3>Meeting</h3><p>We understand your hospital, space and patient flow.</p></div><div class="step"><div class="num">2</div><h3>Agreement</h3><p>We agree on a simple partnership model with clear terms.</p></div><div class="step"><div class="num">3</div><h3>Set-up</h3><p>We set up and brand the counter and place the stock.</p></div><div class="step"><div class="num">4</div><h3>Launch and support</h3><p>We run the counter and keep you updated on sales.</p></div></div>
+</div></section>
+
+<section id="doctors" class="sec" style="background:#F4F9FE"><div class="wrap">
+<p class="tag">Our doctors</p><h2>Counters already running in Jabalpur</h2>
+<p class="lead">Our counters live where care happens. Our dream is to grow Spectacle Plus into a big hospital based optical company.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+<div class="dr"><h3>Narendra Charitable Trust</h3><p>Counter of Dr. Shilpi Agrawal</p></div>
+<div class="dr"><h3>Dr. Kamla Lalwani</h3><p>Near Katanga Petrol Pump</p></div>
+<div class="dr"><h3>Dr. Nitin Soni</h3><p>Golbazar</p></div>
+</div></div></section>
+
+<section class="sec"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:48px;align-items:center">
+<div style="flex:1 1 420px"><p class="tag">Meet the founder</p><h2>Shubham Das Yadav</h2>
+<p style="font-size:17px;line-height:1.7;color:#3F4A5C;margin:0">Shubham began in eye care in 2014 and moved into optical retail in 2016, working up to Store Manager in hospital and retail optical stores. With hands-on experience on both sides, he started Spectacle Plus to give doctors a reliable optical counter that is managed with care.</p></div>
+<div style="flex:1 1 300px;background:#0B2A5B;color:#fff;border-radius:22px;padding:34px"><div class="sn">10+</div><div class="sl" style="margin-bottom:16px">years in eye care and optical</div><div style="font-size:16px;line-height:1.7;color:#CFE6FA">Diploma in Optometry<br>B.Com, MBA (Marketing) pursuing</div></div>
+</div></section>
+
+<section id="faq" class="sec" style="background:#F4F9FE"><div class="wrap" style="max-width:820px">
+<p class="tag">FAQ</p><h2>Questions doctors ask us</h2><details class="qa"><summary>What does the doctor need to provide?</summary><p>A small space for the counter and a recommendation to patients. Everything else is handled by Spectacle Plus.</p></details><details class="qa"><summary>How does the doctor earn?</summary><p>The doctor receives a share of the sales made from the counter. The terms are explained in person and agreed in a simple written agreement.</p></details><details class="qa"><summary>Who manages stock and billing?</summary><p>We do. Frames, lenses, inventory, staff and billing are all managed by Spectacle Plus.</p></details><details class="qa"><summary>What do you sell?</summary><p>Frames, lenses, sunglasses and contact lenses, for every need and budget.</p></details>
+</div></section>
+
+<section id="contact" style="background:#0B2A5B;color:#fff"><div class="wrap" style="padding-top:84px;padding-bottom:72px;text-align:center">
+<h2 style="color:#fff;font-size:44px">Let's set up a counter in your hospital</h2>
+<p style="font-size:17px;line-height:1.9;color:#CFE6FA;margin:0 0 30px">Shubham Das Yadav, Founder and Owner<br>Mobile: 90741 08357 | Email: shubhamdasyadav0214@gmail.com<br>Jabalpur, M.P.</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center"><a class="btn bp" href="tel:+919074108357">Call now</a><a class="btn bg" href="https://wa.me/919074108357">WhatsApp us</a></div>
+</div>
+<div style="border-top:1px solid #1E4A8A;text-align:center;padding:20px;font-size:13px;color:#CFE6FA">© 2026 Spectacle Plus. Hospital based optical store.</div></section>
+<a class="fab" href="https://wa.me/919074108357">Chat on WhatsApp</a>
+</div>
+
+</body>
+</html>
